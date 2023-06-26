@@ -1,10 +1,18 @@
 for linux:
-	mkdir build
-	cd build
-	cmake ..
-	cmake --build .
+
+```sh
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+
+
 for windows:
-	mkdir build
-	cd build
-	cmake ..
-	cmake --build . --config RelWithDebInfo
+
+```sh
+mkdir build
+cd build
+cmake ..
+cmake --build . --config RelWithDebInfo
+```
